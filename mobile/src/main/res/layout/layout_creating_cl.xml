@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/avatar2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/avatar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/first_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/avatar2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/avatar2"
+        android:text="First Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintLeft_toRightOf="@+id/avatar2"
+        app:layout_constraintTop_toTopOf="@+id/avatar2" />
+
+    <TextView
+        android:id="@+id/last_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/first_name2"
+        android:layout_below="@+id/first_name2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:text="Last Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintLeft_toLeftOf="@+id/first_name2"
+        app:layout_constraintTop_toBottomOf="@+id/first_name2"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+
+</android.support.constraint.ConstraintLayout>
