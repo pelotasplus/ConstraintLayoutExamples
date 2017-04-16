@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 enum Example {
     CREATING_RL("Creating RL", R.layout.layout_creating_rl, null),
     CREATING_CL("Creating CL", R.layout.layout_creating_cl, null),
+    GUIDELINES("Guidelines CL", R.layout.layout_guidelines, null),
     SIZING_RL("Sizing RL", R.layout.layout_sizing_rl, null),
     SIZING_CL("Sizing CL", R.layout.layout_sizing_cl, null),
     BIAS_RL("Bias RL", R.layout.layout_bias_rl, null),
