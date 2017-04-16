@@ -14,7 +14,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
     <TextView
-        android:id="@+id/last_name"
+        android:id="@+id/middle_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/first_name"
@@ -28,8 +28,8 @@
         android:id="@+id/note"
         android:layout_width="75dp"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/last_name"
-        android:layout_below="@+id/last_name"
+        android:layout_alignStart="@+id/middle_name"
+        android:layout_below="@+id/middle_name"
         android:layout_marginTop="30dp"
         android:background="@android:color/holo_orange_light"
         android:text="Last Name"

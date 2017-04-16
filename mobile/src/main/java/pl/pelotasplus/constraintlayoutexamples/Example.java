@@ -8,6 +8,7 @@ enum Example {
     GUIDELINES("Guidelines CL", R.layout.layout_guidelines, null),
     SIZING_RL("Sizing RL", R.layout.layout_sizing_rl, null),
     SIZING_CL("Sizing CL", R.layout.layout_sizing_cl, null),
+    SIZING2_CL("Sizing 2 CL", R.layout.layout_sizing2_cl, null),
     BIAS_RL("Bias RL", R.layout.layout_bias_rl, null),
     BIAS_PRL("Bias PRL", R.layout.layout_bias_prl, null),
     BIAS_CL("Bias CL", R.layout.layout_bias_cl, null),
