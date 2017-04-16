@@ -16,6 +16,7 @@ enum Example {
     CHAINS_RL("Chains RL", R.layout.layout_chain_rl, null),
     CHAINS_CL("Chains CL", R.layout.layout_chain_cl, null),
     DIMENSIONS("Dimensions", R.layout.layout_dimensions, null),
+    DIMENSIONS2("Dimensions 2", -1, DimensionsActivity.class),
     VISIBILITY("Visibility", -1, VisibilityActivity.class),
     TRANSITIONS("Transitions", -1, TransitionActivity.class);
 
