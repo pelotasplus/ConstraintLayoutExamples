@@ -37,7 +37,7 @@ public class DimensionsActivity extends AppCompatActivity {
                 "16:9"
         ));
         return ret;
-    }1
+    }
 
     private void loadImage(ImageView imageView, Image image) {
         ConstraintLayout.LayoutParams layoutParams = (ConstraintLayout.LayoutParams) imageView.getLayoutParams();
