@@ -19,7 +19,9 @@ enum Example {
     DIMENSIONS2("Dimensions 2", -1, DimensionsActivity.class),
     VISIBILITY("Visibility", -1, VisibilityActivity.class),
     TRANSITIONS("Transitions", -1, TransitionActivity.class),
-    GOOGLE_CODELAB("Google Codelab CL", R.layout.layout_codelab_cl, null);
+    GOOGLE_CODELAB_RL("Google Codelab RL", R.layout.layout_codelab_rl, null),
+    GOOGLE_CODELAB2_RL("Google Codelab (Nexted) RL", R.layout.layout_codelab2_rl, null),
+    GOOGLE_CODELAB_CL("Google Codelab CL", R.layout.layout_codelab_cl, null);
 
     final String label;
     final int layoutId;
